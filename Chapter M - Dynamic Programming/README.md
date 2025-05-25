@@ -10,8 +10,8 @@ https://medium.com/basecs/less-repetition-more-dynamic-programming-43d29830a630
 
 The trick to calculating all of the solutions to the various subproblems (and then choosing the best one) is remembering previous solutions.
 
-![alt text](image.png)
-![alt text](image-1.png)
+![alt text](./Misc/image.png)
+![alt text](./Misc/image-1.png)
 
 ### Identifying a Dynamic Programming Problem
 
@@ -29,9 +29,9 @@ The trick to calculating all of the solutions to the various subproblems (and th
 
 ### Example: Fibonacci Sequence
 
-![alt text](image-2.png)
-![alt text](image-3.png)
-![alt text](image-4.png)
+![alt text](./Misc/image-2.png)
+![alt text](./Misc/image-3.png)
+![alt text](./Misc/image-4.png)
 
 #### Brute Force Approach
 
