@@ -44,7 +44,7 @@ The trick to calculating all of the solutions to the various subproblems (and th
     2. Minimize/Maximize something
     3. Return if possible or not
 
-![alt text](./Misc/image3.png)
+<img src="./Misc/image3.png" alt="Description" width="200">
 
 ## Steps to solve a dynamic programming problem
 
