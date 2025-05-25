@@ -15,8 +15,36 @@ The trick to calculating all of the solutions to the various subproblems (and th
 
 ## Identifying a Dynamic Programming Problem
 
-1. **Optimal substructure**: The problem can be broken down into smaller subproblems, and the optimal solution of the original problem can be determined from the optimal solutions of these smaller subproblems.
-2. **Overlapping subproblems**: The problem has subproblems that are solved multiple times. This property allows us to save computation time by memoizing or caching the results of these subproblems.
+1. Optimal substructure
+
+    The solution to the problem can be constructed from solutions to subproblems.
+
+    1. Can you divide the problem into smaller parts?
+    2. Does solving the subparts help solve the whole?
+
+2. Overlapping subproblems
+
+    You solve the same subproblems multiple times.
+
+    1. Naive recursion leads to repeated calls.
+    2. You can build a recursion tree and notice repeated nodes.
+
+3. Multiple Choices/Decisions at each step
+
+    At each step, you are deciding between two or more options
+
+    1. Include/exclude an item (Knapsack)
+    2. Cut/do not cut a rod (Rod cutting)
+    3. Buy/sell/hold a stock
+
+4.  Need for All Possibilities / Count / Max / Min
+    
+    Problems ask you to:
+    1. Count ways
+    2. Minimize/Maximize something
+    3. Return if possible or not
+
+![alt text](./Misc/image3.png)
 
 ## Steps to solve a dynamic programming problem
 
@@ -28,9 +56,6 @@ The trick to calculating all of the solutions to the various subproblems (and th
 6. Convert the recursive solution to an iterative one, if possible, for better performance.
 
 ## Example: Fibonacci Sequence
-
-![alt text](./Misc/image-2.png)
-![alt text](./Misc/image-3.png)
 
 #### Brute Force Approach
 
