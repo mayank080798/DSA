@@ -91,3 +91,10 @@ int fibonacci(int n) {
 Time Complexity: O(N)
 Space Complexity: O(1)
 ```
+
+| Approach                  | Time Complexity | Space Complexity |
+| ------------------------- | --------------- | ---------------- |
+| Brute Force Recursion     | `O(2^n)`        | `O(n)`           |
+| Memoization (Top-Down)    | `O(n)`          | `O(n)`           |
+| Tabulation (Bottom-Up)    | `O(n)`          | `O(n)`           |
+| Space-Optimized Iterative | `O(n)`          | `O(1)`           |
